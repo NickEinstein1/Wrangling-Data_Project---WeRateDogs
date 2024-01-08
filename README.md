@@ -25,13 +25,22 @@ If we sum all the y the WeRateDog post, we can get dog type total rating. As we 
 # Most and lowest average rating among all
 Then if we average the rating, we get the clumber is the highest among all. Our lovely golden isn't even in the top five. The most average rated dog is clumber with average rate 2.7, and he lowest average rated dog is loggerhead with average rate 0.3.
 
-#Requirements
+# Requirements
+
 .Jupyter Notebook
+
 .Pandas
+
 .Numpy
+
 .Requests
+
 .Tweepy
+
 .json
+
 .Matplotlib
+
 .Scipy
+
 .Twitter API
