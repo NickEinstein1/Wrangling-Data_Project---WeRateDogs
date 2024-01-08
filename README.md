@@ -1,4 +1,6 @@
 # Introduction
+WeRateDogs is a Twitter account that posts and rates pictures of dogs. These ratings often are not serious and have numerators that are greater than the denominators. In this analysis, I mostly focus on wrangling WeRateDogs's Twitter archive through August 1, 2017. Most of the necessary Twitter data has been provided by Udacity and includes information on each post, as well as details on each dog such as the name, rating, and stage (whether the dog is a doggo, floofer, pupper, or puppo). See below for definitions on the dog stages. However, not all of the desired data is present in Udacity's dataset, so I also use the Twitter API to gather additional data.
+
 The dataset that you will be wrangling (and analyzing and visualizing) is the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog. These ratings almost always have a denominator of 10. The numerators, though? Almost always greater than 10. 11/10, 12/10, 13/10, etc. Why? Because "they're good dogs Brent." WeRateDogs has over 4 million followers and has received international media coverage.
 
 WeRateDogs downloaded their Twitter archive and sent it to Udacity via email exclusively for you to use in this project. This archive contains basic tweet data (tweet ID, timestamp, text, etc.) for all 5000+ of their tweets as they stood on August 1, 2017. More on this soon.
@@ -23,3 +25,13 @@ If we sum all the y the WeRateDog post, we can get dog type total rating. As we 
 # Most and lowest average rating among all
 Then if we average the rating, we get the clumber is the highest among all. Our lovely golden isn't even in the top five. The most average rated dog is clumber with average rate 2.7, and he lowest average rated dog is loggerhead with average rate 0.3.
 
+#Requirements
+.Jupyter Notebook
+.Pandas
+.Numpy
+.Requests
+.Tweepy
+.json
+.Matplotlib
+.Scipy
+.Twitter API
